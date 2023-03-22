@@ -5,19 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap" rel="stylesheet">
     <title>BlackJack</title>
 </head>
 
 <body>
     <h1>Blackjack</h1>
+    <p class="rules">Rules: Player who is dealt cards having a higher count than those of the dealer, up to but not exceeding 21.  </p>
     <p id="message-el">Want to play a round?</p>
     <p id="cards-el">Cards:</p>
     <p id="sum-el">Sum:</p>
     <button onclick="startGame()">START GAME</button>
     <button onclick="newCard()">NEW CARD</button>
     <p id="player-el"></p>
+    <script src="script.js"></script>
 </body>
-
-
-<script src="script.js"></script>
 </html>
